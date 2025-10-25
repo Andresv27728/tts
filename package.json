@@ -1,0 +1,27 @@
+{
+  "name": "gura-api-backend",
+  "version": "1.0.0",
+  "description": "Servidor API gratuito estilo Gura-API compatible con Render y Vercel",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.2",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "jszip": "^3.10.1",
+    "node-fetch": "^3.3.2",
+    "puppeteer": "^23.4.0",
+    "tesseract.js": "^5.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "author": "GuraCode",
+  "license": "MIT"
+}
